@@ -1,0 +1,90 @@
+body {
+	background-color: #fff8f8;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	padding: 60px 0;
+	margin: 30px;
+}
+
+header {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+div {
+	max-width: 800px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h4 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+img[alt="Monica's Headshot"]{
+	width: 250px;
+	padding-left: 20px;
+	float: right;
+}
+
+li{
+	line-height: 25px;
+}
+
+a {
+	color: #00bba7;
+	font-size: 17px;
+}
+
+p {
+	line-height: 25px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.project {
+	display: block;
+	border: 2px solid black;
+	padding: 8px;
+	margin: 20px auto;
+}
+
+.right {
+	float: right;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.social-media-nav {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.italics {
+	font-style: italic
+}
+
+.palatino {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+@media (max-width: 600px) {
+	img[alt="Monica's Headshot"] {
+		width: 200px;
+	}
+{
